@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <meta charset="UTF-8">
+ <title>Pseudoclasses</title>
+ <style>
+    
+ p:first-child {
+ color: blue;
+ }
+ </style>
+</head>
+<body>
+ <section>
+ <p>Primeiro elemento &lt;p&gt; filho do elemento
+ &lt;section&gt;.</p>
+ <p>Parágrafo qualquer.</p>
+ </section>
+ <footer>
+ <p>Primeiro elemento &lt;p&gt; filho do elemento
+ &lt;footer&gt;.</p>
+ <p>Parágrafo qualquer.</p>
+ </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <meta charset="UTF-8">
+ <title>Pseudoclasses</title>
+ <style>
+ .mylist li:first-child {
+ background: rgb(154, 205, 78);
+ }
+ .mylist li:nth-child(3) {
+ background: rgb(193, 46, 46);
+ }
+ .mylist li:last-child {
+ background: rgb(243, 243, 109);
+ }
+ </style>
+</head>
+<body>
+ <section>
+ <p>Lista não ordenada colorida</p>
+ <ul class="mylist">
+ <li>Primeiro filho</li>
+ <li>Segundo filho</li>
+ <li>Terceiro filho</li>
+ <li>Quarto filho</li>
+ <li>Último filho</li>
+ </ul>
+ </section>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+ <title>Pseudoelementos</title>
+ <style>
+ p::before {
+ content: "Leia isso - ";
+ }
+ p::after {
+ content: " - Leia Mais";
+ }
+ </style>
+</head>
+<body>
+ <p>Meu nome é Donald</p>
+ <p>Eu moro em in Ducksburg</p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <meta charset="UTF-8">
+ <title>Pseudoelementos</title>
+ <style>
+ p::first-letter {
+ font-size: 200%;
+ color: #8A2BE2;
+ }
+ </style>
+</head>
+<body>
+ <h1>Bem-vindo</h1>
+ <p>Meu nome é Donald.</p>
+ <p>Eu moro em Duckburg.</p>
+ <p>Meu melhor amigo é o Mickey.</p>
+</body>
+</html>
+
+
