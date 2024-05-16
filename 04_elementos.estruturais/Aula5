@@ -1,0 +1,67 @@
+</html>
+<h1>IOS1</h1>
+<h2>IOS2</h2>
+<h3>IOS3</h3>
+<h4>IOS4</h4>
+<h5>IOS5</h5>
+<h6>IOS6</h6>
+
+&copy;
+
+<ol type="i" reversed>
+    <li> São Paula </li>
+    <li>Minas Grais</li>
+    <li> Rio de janeiro </li> 
+    <li>Pára</li>
+    <li>Amazonas</li>
+    <li> Acre</li>
+    <li> Alagoas</li>
+    <li> Rondônia</li>
+</ol>
+ <ol start="1">
+    <h1>Elementos de Lista Ordenadas </h1>
+    <h5> Lista numeral de normal </h5>
+    <h6>
+        <li> São Paulo </li>
+        <li> Minas Gerais</li>
+        <li> Rio de Janeiro</li>
+        </ol>
+
+     <ol start="10" reversed>
+        <h1> Lista numerada invertida com valor inicial 10 </h1>
+        <h6>
+            <li> São Paulo </li>
+            <li> Minas Gerais </li>
+            <li>Rio de Janeiro </li>
+        </h6>
+    </ol>
+
+    <ol type="A">
+        <h1> Lista Alfabetica Maiúscula </h1>
+        <h6>
+            <li>São Paulo </li>
+            <li> Minas Gerais</li>
+            <li> Rio de Janeiro</li>
+        </h6>
+    </ol>
+
+    <ol type="a">
+        <h1><li> São Paulo </li></h1>
+       <h6><li> Minas Gerais</li></h6>
+       <h6><li> Rio de Janeiro</li></h6>
+         </ol>
+
+         <ul type ="circle"> 
+            <li> São Paulo </li>
+            <li> minas Gerais</li>
+            <li> Rio de Janeiro </li>
+         </ul>
+        
+
+        
+        
+     </h6>
+ </ol>
+
+</body>
+</html>

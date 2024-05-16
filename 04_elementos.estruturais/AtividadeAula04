@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+2. <html lang="pt-br"> 
+3. 
+4. <head> 
+5. <meta charset="UTF-8"> 
+6. <title>Elementos textuais </title> 
+7. </head> 
+8. 
+9. <body> 
+10. <header> 
+11. <h1>O elemento footer </h1> 
+12. </header> 
+13. <article> 
+14. <p>Conteúdo da seção <article></p> 
+15. </article> 
+16. <footer> 
+17. <p>Autor: Rafael Lopes dos Santos</p> 
+18. <a href="mailto:seuemail@provedor.com">seuemail@provedor.com</a> 
+19. </footer> 
+20. </body> 
+21. 
+22. </html>
