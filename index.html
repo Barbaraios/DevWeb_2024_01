@@ -14,71 +14,42 @@ KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZq
 "
 crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="shortcut icon" href="#">
-<title>Busca CEP</title>
+<title>API - Ricky and Morty</title>
 </head>
 <body>
-<section class="container mt-3 p-2 border border-2 border-success rounded-4">
-<h1 class="bg-light text-center p-1 m-0"><i class="text-primary fa-solid faglobe pe-3"></i>Busca CEP</h1>
-<h2 class="text-center text-secondary p-2">Entre com um número válido de 
-CEP</h2>
-<form method="get" action=".">
-<div class="container row mb-3">
-<div class="col-2">
-<label class="form-label fw-bold">Cep:</label>
-</div>
-<div class="col-3">
-<input name="cep" type="text" id="cep" value="" size="10"
-maxlength="9"
-onblur="pesquisaCEP(this.value);" />
-</div>
-</div>
-<div class="container row mb-1">
-<div class="col-2">
-<label class="form-label col fw-bold">Rua:</label>
-</div>
-<div class="col-3">
-<input class="col" name="rua" type="text" id="rua" size="45" />
+<section class="container mt-3 p-2 border border-2 rounded-4">
+<h1 class="p-3 mb-2 bg-dark text-white text-center p-1 m-0">Ricky and Morty</h1>
+<div class="mt-3 mb-3">
+<label for="info">Informação:</label>
+<select name="info" id="info">
+<option value="" class="selected">...</option>
+<option value="character">Personagens</option>
+<option value="location">Localização</option>
+<option value="episode">Episódios</option>
+</select>
+<div class="mt-3">
+<label for="opt" id="label" style="display:none;"></label>
+<select name="opt" id="opt" style="display:none;"></select>
 </div>
 </div>
+<button type="button" id="button" class='btn btn-primary mt-3 mb-3'
+onclick="getData()" disabled>Procurar!</button>
 <div class="container row">
-<div class="col-2">
-<label class="form-label col fw-bold">Complemento:</label>
+<div class="col card">
+<h4><b>Informações</b></h4>
+<p><b>ID</b>: <span id="id"></span> </p>
+<p><b>Nome</b>: <span id="name"></span> </p>
+<div id="outros"></div>
 </div>
-<div class="col-3">
-<input name="complemento" type="text" id="complemento" size="20"
-/><br />
-</div>
-</div>
-<div class="container row mb-1">
-<div class="col-2">
-<label class="form-label col fw-bold">Bairro:</label>
-</div>
-<div class="col-3">
-<input name="bairro" type="text" id="bairro" size="40" />
-</div>
-</div>
-<div class="container row mb-1">
-<div class="col-2">
-<label class="form-label col fw-bold">Cidade:</label>
-</div>
-<div class="col-3">
-<input name="cidade" type="text" id="cidade" size="40" />
-</div>
-</div>
-<div class="container row mb-1">
-<div class="col-2">
-<label class="form-label col fw-bold">Estado:</label>
-</div>
-<div class="col-3">
-<input name="uf" type="text" id="uf" size="2" />
-</div>
-</div>
-</form>
-</section>
+<div class="col card text-center">
+<h4 id="title_card"></h4>
+<div id="imagem_aqui" class="container card-body"></div>
 <br>
-<div class="container">
-<div id="output"></div>
+<br>
+<br>
 </div>
-<script src="BuscaCep.js"></script>
+</div>
+</section>
+<script src="Rick_Morty.js"></script>
 </body>
 </html>
